@@ -5,6 +5,7 @@
     <arg name="use_sim_time" value="true"/>
     <arg name="debug" value="false"/>
     <arg name="world_name" value="$(arg world_name)"/>
+    <arg name="gui" value="false" />
   </include>
 
   <arg name="posx" value="1.32"/>
@@ -12,11 +13,11 @@
   <arg name="posYaw" value="0.0"/>
   <arg name="robot_name" value="kobuki"/>
 
-  <include file="$(find gb_robots)/launch/includes/robot.launch.xml">
+  <include file="$(find gb_robots)/launch/includes/robot_without_xtion.launch.xml">
     <arg name="posx" value="$(arg posx)"/>
     <arg name="posy" value="$(arg posy)"/>
     <arg name="posYaw" value="$(arg posYaw)"/>
     <arg name="robot_name" value="$(arg robot_name)"/>
   </include>
-  
+
 </launch>
