@@ -40,8 +40,8 @@ obstacle_layer_local:
   mark_threshold:       0
   combination_method:   1
   track_unknown_space:  true    #true needed for disabling global path planning through unknown space
-  obstacle_range: 2.5
-  raytrace_range: 3.0
+  obstacle_range: 3.5
+  raytrace_range: 4.0
   publish_voxel_map: false
   observation_sources: scan_local
 
@@ -59,6 +59,11 @@ inflation_layer:
   cost_scaling_factor:  5.0  # exponential rate at which the obstacle cost drops off (default: 10)
   inflation_radius:     1.0  # max. distance from an obstacle at which costs are incurred for planning paths.
 
+inflation_social_layer:
+  enabled:              true
+  cost_scaling_factor:  10.0
+  inflation_radius:     0.15
+
 static_layer:
   enabled:              true
 
@@ -66,5 +71,7 @@ proxemic_layer:
   enabled:              true
   cutoff: 10.0
   amplitude: 254.0
-  covariance: 0.2
+  covariance: 0.25
   factor: 5.0
+  exit_px: 3.516
+  exit_py: 4.63

@@ -22,6 +22,8 @@
   <kobuki/>
 
   <stack_hexagons                 parent="base_link"/>
+  <xacro:property name="cam_pz"  value="0.5"/>
+  <xacro:property name="cam_op" value="-0.5"/>  
   <sensor_asus_xtion_pro          parent="base_link"/>
 <!--  <sensor_hokuyo 		              parent="base_link" name="laser0" ros_topic="scan" update_rate="40" ray_count="1081" min_angle="135" max_angle="-135" />-->
 
