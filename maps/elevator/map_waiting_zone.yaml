@@ -1,4 +1,4 @@
-image: map.pgm
+image: map_waiting_zone.pgm
 resolution: 0.1
 origin: [0.00000, 0.00000, 0.00000]
 negate: 0
