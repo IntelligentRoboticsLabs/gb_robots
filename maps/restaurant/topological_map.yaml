@@ -1,15 +1,16 @@
 room_ids: [main_room]
 door_ids: []
 connections: []
-waypoints_ids: [wp_entry, wp_mesa_1, wp_mesa_2, wp_mesa_3, wp_mesa_4, wp_mesa_5, wp_mesa_6, wp_barman, wp_waiting_zone]
+waypoints_ids: [wp_entry, wp_table_1, wp_table_2, wp_table_3, wp_table_4, wp_table_5, wp_table_6, wp_bar, wp_waiting, wp_waiting_zone]
 
 
 wp_entry: {room: main_room, position: "0.0, 0.0, 0.0"}
-wp_mesa_1: {room: main_room, position: "2.71, 1.19, -1.57"}
-wp_mesa_2: {room: main_room, position: "2.71, 2.5, 1.57"}
-wp_mesa_3: {room: main_room, position: "4.32, 1.19, -1.57"}
-wp_mesa_4: {room: main_room, position: "4.35, 2.5, 1.57"}
-wp_mesa_5: {room: main_room, position: "5.93, 1.19, -1.57"}
-wp_mesa_6: {room: main_room, position: "5.93, 2.5, 1.57"}
-wp_barman: {room: main_room, position: "1.4, 3.0, -3.14"}
+wp_table_1: {room: main_room, position: "2.71, 1.19, -1.57"}
+wp_table_2: {room: main_room, position: "2.71, 2.5, 1.57"}
+wp_table_3: {room: main_room, position: "4.32, 1.19, -1.57"}
+wp_table_4: {room: main_room, position: "4.35, 2.5, 1.57"}
+wp_table_5: {room: main_room, position: "5.93, 1.19, -1.57"}
+wp_table_6: {room: main_room, position: "5.93, 2.5, 1.57"}
+wp_bar: {room: main_room, position: "1.4, 3.0, -3.14"}
+wp_waiting: {room: main_room, position: "2.00, 1.8, -3.14"}
 wp_waiting_zone: {room: main_room, position: "2.00, 1.8, -3.14"}
