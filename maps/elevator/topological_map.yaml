@@ -3,8 +3,8 @@ door_ids: []
 connections: []
 waypoints_ids: [wp_start, wp_waiting_zone, wp_elevator_door, wp_elevator, wp_end]
 
-wp_start: {room: main_room, position: "14.8, 17.8, 0.0"}
-wp_waiting_zone: {room: main_room, position: "-2.97, 2.8, 3.14"}
-wp_elevator_door: {room: main_room, position: "3.51, 5.03, 1.57"}
-wp_elevator: {room: main_room, position: "3.6, 6.3, -1.57"}
-wp_end: {room: main_room, position: "6.85, 0.0, 0.0"}
+wp_start: {room: main_room, position: "0.0, 3.0, 0.0"}
+wp_waiting_zone: {room: main_room, position: "1.5, 0.20, 0.0"}
+wp_elevator_door: {room: main_room, position: "2.8, 0.20, 0.0"}
+wp_elevator: {room: main_room, position: "4.25, 0.7, 3.14"}
+wp_end: {room: main_room, position: "0.0, 0.0, 0.0"}
