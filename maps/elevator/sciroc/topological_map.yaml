@@ -1,10 +1,10 @@
 room_ids: [main_room]
 door_ids: []
 connections: []
-waypoints_ids: [wp_start, wp_post_encounter, wp_waiting_zone, wp_elevator_door, wp_elevator, wp_end]
+waypoints_ids: [wp_start, wp_pre_encounter, wp_post_encounter, wp_waiting_zone, wp_elevator_door, wp_elevator, wp_end]
 
 wp_start: {room: main_room, position: "-8.65, -2.73, 1.57"}
-wp_pre_encounter: {room: main_room, position: "-6.85, 3.03, 0.0"}
+wp_pre_encounter: {room: main_room, position: "-6.85, 2.7, 0.0"}
 wp_post_encounter: {room: main_room, position: "0.00, 3.03, 0.0"}
 wp_waiting_zone: {room: main_room, position: "-2.9, 0.26, -1.57"}
 wp_elevator_door: {room: main_room, position: "-2.77, -1.33, -1.57"}
