@@ -9,7 +9,7 @@ wp_table_0: {room: main_room, position: "3.12, 0.35, -0.6"}
 wp_table_1: {room: main_room, position: "3.341, 2.801, -0.666"}
 wp_table_2: {room: main_room, position: "3.74, 3.61, 1.19"}
 wp_table_3: {room: main_room, position: "4.16, 5.42, 1.60"}
-wp_table_4: {room: main_room, position: "0.915, 4.89, 2.21"}
+wp_table_4: {room: main_room, position: "1.115, 4.69, 2.21"}
 wp_table_5: {room: main_room, position: "0.70, 2.93, 2.45"}
 wp_bar: {room: main_room, position: "1.01, 0.493, -1.57"}
 wp_waiting: {room: main_room, position: "-0.865, 1.61, -1.60"}
