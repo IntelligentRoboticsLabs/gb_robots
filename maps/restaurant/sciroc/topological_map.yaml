@@ -5,12 +5,12 @@ waypoints_ids: [wp_entry, wp_table_0, wp_table_1, wp_table_2, wp_table_3, wp_tab
 
 
 wp_entry: {room: main_room, position: "0.0, 0.0, 0.0"}
-wp_table_0: {room: main_room, position: "3.62, 0.65, -1.06"}
-wp_table_1: {room: main_room, position: "3.50, 2.53, 0.0"}
-wp_table_2: {room: main_room, position: "3.78, 4.0, 0.98"}
-wp_table_3: {room: main_room, position: "3.92, 5.66, 1.57"}
-wp_table_4: {room: main_room, position: "0.835, 5.19, 2.32"}
-wp_table_5: {room: main_room, position: "0.71, 3.31, 2.47"}
-wp_bar: {room: main_room, position: "1.20, 0.438, -1.57"}
-wp_waiting: {room: main_room, position: "2.00, 1.8, -3.14"}
-wp_waiting_zone: {room: main_room, position: "2.00, 1.8, -3.14"}
+wp_table_0: {room: main_room, position: "3.12, 0.35, -0.6"}
+wp_table_1: {room: main_room, position: "3.341, 2.801, -0.666"}
+wp_table_2: {room: main_room, position: "3.74, 3.61, 1.19"}
+wp_table_3: {room: main_room, position: "4.16, 5.42, 1.60"}
+wp_table_4: {room: main_room, position: "0.915, 4.89, 2.21"}
+wp_table_5: {room: main_room, position: "0.70, 2.93, 2.45"}
+wp_bar: {room: main_room, position: "1.01, 0.493, -1.57"}
+wp_waiting: {room: main_room, position: "-0.865, 1.61, -1.60"}
+wp_waiting_zone: {room: main_room, position: "-0.865, 1.61, -1.60"}
