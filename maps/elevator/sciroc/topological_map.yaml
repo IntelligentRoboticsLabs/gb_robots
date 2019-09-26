@@ -8,6 +8,6 @@ wp_pre_encounter: {room: main_room, position: "-6.85, 2.7, 0.0"}
 wp_encounter: {room: main_room, position: "-3.86, 2.8, 0.0"}
 wp_post_encounter: {room: main_room, position: "0.00, 3.03, 0.0"}
 wp_waiting_zone: {room: main_room, position: "-2.9, 0.26, -1.57"}
-wp_elevator_door: {room: main_room, position: "-2.77, -1.33, -1.57"}
+wp_elevator_door: {room: main_room, position: "-2.77, -1.23, -1.57"}
 wp_elevator: {room: main_room, position: "-2.77, -2.38, 1.57"}
 wp_end: {room: main_room, position: "0.22, -2.46, -1.57"}
