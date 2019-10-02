@@ -62,16 +62,16 @@ inflation_layer:
 inflation_social_layer:
   enabled:              true
   cost_scaling_factor:  10.0
-  inflation_radius:     0.15
+  inflation_radius:     0.1
 
 static_layer:
   enabled:              true
 
 proxemic_layer:
   enabled:              true
-  cutoff: 10.0
-  amplitude: 254.0
+  cutoff: 5.0
+  amplitude: 200.0
   covariance: 0.25
   factor: 5.0
-  exit_px: 3.516
-  exit_py: 4.63
+  exit_px: 0.0
+  exit_py: 0.0
