@@ -1,21 +1,16 @@
 <launch>
-  <arg name="world_name" default="$(find gb_robots)/worlds/lab.world"/>
+  <arg name="world_name" default="$(find gb_robots)/worlds/lab_3.world"/>
   <env name="GAZEBO_MODEL_PATH" value="$(find gb_robots)/worlds/models"/>
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="use_sim_time" value="true"/>
     <arg name="debug" value="false"/>
     <arg name="world_name" value="$(arg world_name)"/>
-    <arg name="gui" value="false"/>
+    <arg name="gui" value="true"/>
   </include>
 
-  <!--<arg name="posx" value="4.68"/>
-  <arg name="posy" value="8.52"/>
+  <arg name="posx" value="5.5"/>
+  <arg name="posy" value="2.5"/>
   <arg name="posYaw" value="3.14"/>
-  <arg name="robot_name" value="kobuki"/>-->
-
-  <arg name="posx" value="3.2"/>
-  <arg name="posy" value="10.17"/>
-  <arg name="posYaw" value="-1.57"/>
   <arg name="robot_name" value="kobuki"/>
 
 

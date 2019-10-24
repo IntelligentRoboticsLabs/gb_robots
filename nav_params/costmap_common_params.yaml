@@ -24,7 +24,7 @@ obstacle_layer:
   scan:
     data_type: LaserScan
     topic: /scan_filtered
-    marking: true
+    marking: false
     clearing: true
     min_obstacle_height: 0.1
     max_obstacle_height: 1.4
@@ -40,8 +40,8 @@ obstacle_layer_local:
   mark_threshold:       0
   combination_method:   1
   track_unknown_space:  true    #true needed for disabling global path planning through unknown space
-  obstacle_range: 3.5
-  raytrace_range: 4.0
+  obstacle_range: 6.0
+  raytrace_range: 6.0
   publish_voxel_map: false
   observation_sources: scan_local
 
@@ -70,8 +70,10 @@ static_layer:
 proxemic_layer:
   enabled:              true
   cutoff: 5.0
-  amplitude: 200.0
-  covariance: 0.25
+  amplitude: 254.0
+  covariance: 0.12
   factor: 5.0
   exit_px: 0.0
   exit_py: 0.0
+  visualization_only: true
+  generate_paths: false
