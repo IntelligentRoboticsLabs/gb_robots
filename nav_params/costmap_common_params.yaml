@@ -100,3 +100,4 @@ proxemic_layer:
   exit_py: 0.0
   visualization_only: false
   generate_paths: false
+  default_emotion: 4.0
