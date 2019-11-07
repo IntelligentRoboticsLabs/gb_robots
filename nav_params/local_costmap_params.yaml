@@ -5,10 +5,12 @@ local_costmap:
    publish_frequency: 5.0
    static_map: false
    rolling_window: true
-   width: 12.0
-   height: 12.0
+   width: 8.0
+   height: 8.0
    resolution: 0.05
    transform_tolerance: 0.5
    plugins:
     - {name: obstacle_layer_local,      type: "costmap_2d::VoxelLayer"}
-    - {name: proxemic_layer,            type: "social_navigation_layers::ProxemicLayer"}
+    - {name: obstacle_rgbd_layer,         type: "costmap_2d::VoxelLayer"}
+    - {name: inflation_social_layer,         type: "costmap_2d::InflationLayer"}
+

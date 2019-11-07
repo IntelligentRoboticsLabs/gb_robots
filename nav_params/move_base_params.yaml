@@ -18,7 +18,7 @@ oscillation_distance: 0.2
 base_local_planner: "base_local_planner/TrajectoryPlannerROS"
 base_global_planner: "navfn/NavfnROS"
 #"navfn/NavfnROS" #alternatives: global_planner/GlobalPlanner, carrot_planner/CarrotPlanner
-layer_names: ["obstacle_layer_local"]
+layer_names: ["obstacle_layer_local", "obstacle_rgbd_layer"]
 
 
 #We plan to integrate recovery behaviors for turtlebot but currently those belong to gopher and still have to be adapted.
