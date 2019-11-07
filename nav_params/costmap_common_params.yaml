@@ -75,5 +75,5 @@ proxemic_layer:
   factor: 5.0
   exit_px: 0.0
   exit_py: 0.0
-  visualization_only: true
+  visualization_only: false
   generate_paths: false
